@@ -12,7 +12,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 #pathKeys = "/content/drive/My Drive/Computadora_Virtual/Hub/Oportunidades/Capacitación Profesores/Información Capacitación 2/Keys/" # download kes; each project has different keys.
-#pathKeys = "./"
+pathKeys = ""
 
 if not firebase_admin._apps:
     cred = credentials.Certificate(pathKeys +"capacitacionprofesorestec-firebase-adminsdk-zqbzr-c79859d941.json") #
